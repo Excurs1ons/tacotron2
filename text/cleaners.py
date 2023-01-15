@@ -18,6 +18,9 @@ from .numbers import normalize_numbers
 import pyopenjtalk
 from janome.tokenizer import Tokenizer
 
+from text.english import english_to_ipa as english_cleaners_ipa
+from text.english import english_to_ipa2 as english_cleaners_ipa2
+from text.english import english_to_lazy_ipa as english_cleaners_lazy_ipa
 
 # Regular expression matching whitespace:
 _whitespace_re = re.compile(r'\s+')
